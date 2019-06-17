@@ -25,13 +25,19 @@ function addHint(e) {
 
 let lgcard = document.querySelectorAll("div.LoginCard");
 let lgcardtab = document.querySelectorAll("div.LoginCard-tablet");
+let lgcardphone = document.querySelectorAll("div.LoginCard-phone");
 let lgform = document.querySelectorAll("div.LoginForm");
+let lgformphone = document.querySelectorAll("div.LoginForm-phone");
 lgcard[0].style.height = "initial";
 lgcardtab[0].style.height = "initial";
+lgcardphone[0].style.height = "initial";
+lgcard[0].style.paddingBottom = "20px"; 
+lgcardtab[0].style.paddingBottom = "20px";
+lgcardphone[0].style.paddingBottom = "20px";
 lgform[0].style.height = "initial";
 lgform[1].style.height = "initial";
-lgcard[0].style.paddingBottom = "20px"; // lgform[0].style.marginTop;
-lgcardtab[0].style.paddingBottom = "20px"; // lgform[0].style.marginTop;
+lgformphone[0].style.height = "initial";
 
 addHint(lgform[0]);
 addHint(lgform[1]);
+addHint(lgformphone[0]);
