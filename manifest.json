@@ -1,0 +1,23 @@
+{
+    "name": "__MSG_extName__",
+    "version": "1.0.0",
+    "description": "__MSG_description__",
+    "manifest_version": 2,
+    "author": "Hyperbola",
+    "permissions": [
+        "declarativeContent",
+        "activeTab",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://e3new.nctu.edu.tw/*"
+            ],
+            "js": [
+                "/js/deletion.js"
+            ]
+        }
+    ],
+    "default_locale": "zh_TW"
+}
