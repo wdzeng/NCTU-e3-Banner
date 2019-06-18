@@ -1,4 +1,4 @@
-let ccinputs = document.getElementsByName("captcha_code");
+/*let ccinputs = document.getElementsByName("captcha_code");
 ccinputs[2].remove();
 ccinputs[1].remove();
 ccinputs[0].remove();
@@ -11,15 +11,15 @@ ccimages[0].remove();
 let cctexts = document.querySelectorAll("a[href='#']");
 cctexts[2].remove();
 cctexts[1].remove();
-cctexts[0].remove();
+cctexts[0].remove();*/
 
 function addHint(e) {
     let divhint = document.createElement("div");
-    divhint.style.textAlign = "left";
+    // divhint.style.textAlign = "left";
     divhint.style.color = "white"; 
     divhint.style.marginTop = "20px"; 
-    divhint.innerHTML = "偉大的大學未來可能會強迫要求輸入 Captcha ，這個插件大概也不能撐太久，屆時請把它移除。";
-    divhint.style.fontSize = "14px";
+    divhint.innerHTML = "咱偉大的 e3 現在啟用後端驗證拉，總之這個套件已經廢了。";
+    divhint.style.fontSize = "18px";
     e.appendChild(divhint);
 }
 
